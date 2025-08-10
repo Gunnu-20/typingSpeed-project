@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.2em;
+    color: #264653;
+    text-shadow: 1px 1px 2px #ddd;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2a9d8f;
+}
+
+#display-sentence {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px dashed #264653;
+    background-color: #ffffffc0;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+#typed-input {
+    width: 90%;
+    max-width: 600px;
+    height: 120px;
+    font-size: 1.1em;
+    padding: 12px;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 2px 2px 8px #88888830;
+}
+
+#button {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #e76f51;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+#refresh-btn {
+    transition: transform 0.3s ease;
+}
+
+#refresh-btn:hover {
+    transform: rotate(90deg);
+}
